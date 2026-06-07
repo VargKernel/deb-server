@@ -167,11 +167,9 @@ Collects a full system snapshot (hardware, services, Docker, Nginx, firewall, lo
 ## Screenshots
 
 ### Node Exporter Full — System Metrics
-<!-- Replace with your own screenshot: screenshots/grafana-metrics.png -->
 ![Grafana system metrics dashboard](screenshots/grafana-metrics.png)
 
 ### Linux Server Dashboard — Overview
-<!-- Replace with your own screenshot: screenshots/grafana-dashboard.png -->
 ![Grafana Linux server dashboard](screenshots/grafana-dashboard.png)
 
 ## Repository Structure
@@ -181,11 +179,11 @@ deb-server/
 ├── README.md
 ├── .gitignore
 ├── screenshots/
-│   ├── grafana-metrics.png        # Node Exporter Full — system graphs
-│   └── grafana-dashboard.png      # Linux server overview dashboard
+│   ├── grafana-metrics.png         # Node Exporter Full — system graphs
+│   └── grafana-dashboard.png       # Linux server overview dashboard
 ├── nginx/
 │   └── sites-available/
-│       └── deb-server.local       # Nginx virtual host config
+│       └── deb-server.local        # Nginx virtual host config
 └── docker/
     └── grafana-stack/
         ├── compose.yaml            # Docker Compose stack
